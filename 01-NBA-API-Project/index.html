@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ui.css">
+
+    <!-- responsive -->
+    <link rel="stylesheet" media="(max-width: 912px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width: 540px)" href="css/mobile.css">
+
+    <title>NBA API Project</title>
+</head>
+<body>
+
+    <section id="container">
+        <div class="card" id="serchContainer">
+            <h1><span class="head-color-1">NBA</span> <span class="head-color-2">API</span></h1>
+            <div id="message">
+                <div class="card-body">
+                    <form id="search-form" name="form">
+                        <div class="form-row">
+                            <input type="text" class="form-control" id="search" name="search" placeholder="Oyuncu Ara...">
+                        </div>
+                        <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+            <button id="go-players" class="btn btn-info">Kayıtlı Oyunculara Git <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        
+        <div id="player-group">
+
+            <div id="player-group-header">
+                <!-- <h3 class="total-players">Toplam 4 Oyuncu Bulundu</h3> -->
+            </div>
+
+
+            <div id="player-group-body" class="player-group-card">
+                <!-- <div class="player-card">
+                    <div class="player-card-header">
+                        <div class="name">Lebron James</div>
+                        <div class="icon"><i class="fa-regular fa-bookmark"></i></div>
+                    </div>
+                    
+                    <hr>
+                    <div class="palayer-informations">
+                        <div class="item">lakers: bilgi</div>
+                        <div class="item">PW: bilgi</div>
+                        <div class="item">lakers: bilgi</div>
+                        <div class="item">lakers: bilgi</div>
+                    </div>
+                </div> -->
+                
+            </div>
+
+            <div id="clearSavedBtn">
+                <!-- <button class="btn btn-danger">Tüm kayıtları sil</button> -->
+            </div>
+            
+        </div>
+
+        <div id="lastSearch">
+            <div id="searched-head">
+            <!-- <h3 class="last-search-head">Arama Geçmişi</h3> -->
+
+            </div>
+            <ul id="searched-list">
+                <!-- <li class="searched-item">oyuncu <i class="fa-solid fa-circle-xmark"></i></li> -->
+            </ul>
+
+            <div id="clear-players-row">
+                <!-- <button id="clear-last-players"  class="btn btn-danger">Tüm Arananları Temizle </button> -->
+            </div>
+
+        </div>
+
+        <div id="clearAllMessage">
+            <!-- <div class="alert alert-success">Tüm arananlar başarıyla silindi</div> -->
+        </div>
+
+        
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="connections">
+                <div class="my-connections">
+                    <h3 class="connection-header">İletişim Bilgilerim</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/_alibaltaci_/" target="blank_">Instagram <i class="fa-brands fa-instagram"></i></a></li> 
+                        <li><a href="https://www.youtube.com/channel/UCP_II4iZ96EFzqnF6eKaG9g" target="blank_">YouTube <i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/alibaltaci" target="blank_">GitHub <i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/alibaltaci/" target="blank_">Linkedin <i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://medium.com/@alibaltaci" target="blank_">Medium <i class="fa-brands fa-medium"></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="nba-connections">
+                    <h3 class="connection-header">Sosyal Medyada NBA</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/nba/" target="blank_"> <i class="fa-brands fa-instagram"></i> Instagram</a></li> 
+                        <li><a href="https://www.youtube.com/c/NBA" target="blank_"><i class="fa-brands fa-youtube"></i>YouTube</a></li> 
+                        <li><a href="https://www.nba.com/" target="blank_"><i class="fa-solid fa-globe"></i> NBA</a></li> 
+                        <li><a href="https://www.facebook.com/nba/" target="blank_"><i class="fa-brands fa-facebook"></i> Facebook</a></li> 
+                        <li><a href="https://twitter.com/nba" target="blank_"><i class="fa-brands fa-twitter"></i> Twitter</a></li> 
+                    </ul>
+    
+                </div>
+            </div>
+
+            <div class="co"><i class="fa-regular fa-copyright"></i>sisyphus soft, Inc.</div>
+
+        </div>
+
+    </footer>
+
+    <script src="nba.js"></script>
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>

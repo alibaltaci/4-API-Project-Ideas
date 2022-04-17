@@ -1,0 +1,19 @@
+/* mobile css */
+
+h1{
+    font-size: 4rem;
+}
+
+.palayer-informations{
+    flex-direction: column;
+}
+
+.item{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .25rem .75rem;
+}
+
+#go-players{
+    font-size: 1rem;
+}

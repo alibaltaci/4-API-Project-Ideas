@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Response -->
+    <link rel="stylesheet" media="(max-width: 912px)" href="response.css">
+
+
+    <title>Love Calculator Api Project</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="header-row">
+            <h1>LOVE <span>CALCULATOR</span> API</h1>
+        </div>
+        <div class="input-field">
+            <form id="calculate-form" name="form">
+                <div id="input-row">
+                    <input type="text"  id="couple-name-first" class="form-control" name="input" placeholder="İsim giriniz..." required>
+                    <input type="text"  id="couple-name-second" class="form-control" name="input" placeholder="İsim giriniz..." required>
+                </div>
+                <div id="btn-row">
+                    <button type="submit" id="subBtn" class="btn">Hesapla</button>
+                </div>
+            </form>
+        </div>
+        <div id="results-area">
+            <div id="resultsHeader"></div>
+            <div id="results">
+                <div id="result-per">
+
+                </div>
+                <hr>
+                <div id="result-message">
+    
+                </div>
+            </div>
+        </div>
+        <div id="Warning-area">
+            <p>
+                <span>UYARI:</span>  Çıkacak Olumsuz sonuçlardan dolayı çiftler arasında yaşanacak tartışmalarda mesuliyet kabul etmiyoruz.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+
+    <script src="love.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

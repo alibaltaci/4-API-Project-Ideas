@@ -1,0 +1,20 @@
+.header-row{
+    margin-bottom: 2rem;
+}
+
+.form-control{
+    margin-top: 1rem;
+}
+
+#results{
+    flex-direction: column;
+}
+
+#percentage-box{
+    margin-right: auto;
+}
+
+#Warning-area{
+    padding: 0 2rem;
+    text-align: center;
+}

@@ -28,3 +28,8 @@ Exchange rates API is a simple and lightweight free service for current and hist
 
 Exchange Rates API URL: https://exchangerate.host/#/
 
+# 4. GitHub API Project
+
+GitHub user information
+
+GitHub API URL: https://api.github.com/users/

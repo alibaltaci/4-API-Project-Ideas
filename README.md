@@ -1,6 +1,6 @@
 # 4-API-Project-Ideas
 
-![](.\Images\APIs.png)
+![](.\Images\Apis.png)
 
 ## Projects
 

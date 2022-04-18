@@ -2,6 +2,9 @@
 
 ![APIs](https://user-images.githubusercontent.com/71599944/163732465-91063abe-c7e3-4309-b404-ef1c34fb3ec0.png)
 
+## Related Article
+
+https://alibaltaci.medium.com/4-api-projesi-fikri-9773b22f46ba
 
 ## Projects
 

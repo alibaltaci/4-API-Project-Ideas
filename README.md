@@ -40,4 +40,3 @@ Exchange Rates API URL: https://exchangerate.host/#/
 GitHub user information
 
 GitHub API URL: https://api.github.com/users/
-
